@@ -31,3 +31,10 @@ Compiling tests for Lab...
 
 去掉:`package`, 将lab1单独打开,而不是 打开整个cs61b的项目文件夹,以后的作业也是同理.
 
+### array lengths differed, expected.length=6 actual.length=10
+
+数组长度不同，期望长度为6，实际长度为10。
+
+System.out.print(n + " ");// 打印n,不打印会不能通过gradescope核验
+
+放错位置了,放在 main主函数即可.
