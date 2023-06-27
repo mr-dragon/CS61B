@@ -1,16 +1,16 @@
 public class GetEnvironmentVariables {
 
-  // Fill in the path to your sp21-s*** folder between the quotes
-  // 在引号中填写您的sp21-s***文件夹的路径
-  public static String REPO_DIR = "/CS61B/lab1";
+    // Fill in the path to your sp21-s*** folder between the quotes
+    // 在引号中填写您的sp21-s***文件夹的路径
+    private static String REPO_DIR = "/CS61B/lab1";
 
     // Fill in the path to your snaps-sp21-s*** folder between the quotes
     // 在引号中填写您的snaps-sp21-s***文件夹的路径。
-    public static String SNAPS_DIR = "/CS61B/lab1";
+    private static String SNAPS_DIR = "/CS61B/lab1";
 
     // Fill in the type of your shell by running 'echo $0` in your terminal. It should be zsh or bash.
     // 在终端中运行'echo $0`，填写您的shell类型。它应该是zsh或bash。
-    public static String SHELL = "zsh";
+    private static String SHELL = "zsh";
 
     public static void main(String[] args) {
 
@@ -45,7 +45,8 @@ public class GetEnvironmentVariables {
 
         if (repo == null) {
             System.out.println();
-            System.out.println("Oops! We couldn't detect your OS. Please reach out to a lab TA or post on Ed so we can help you move forward");
+            System.out.println("Oops! We couldn't detect your OS. "
+                    + "Please reach out to a lab TA or post on Ed so we can help you move forward");
             return;
         }
 
