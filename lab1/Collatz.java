@@ -1,5 +1,3 @@
-package lab1;
-
 /**
  * 最大值编程练习
  * Collatz序列定义如下：

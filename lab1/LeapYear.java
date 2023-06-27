@@ -1,5 +1,3 @@
-package lab1;
-
 /**
  * $ java LeapYear 2000
  * 2000 is a leap year.
