@@ -19,6 +19,7 @@
 public class Collatz {
   public static void main(String[] args) {
     int n = 5;
+    System.out.print(n + " ");// 打印n,不打印会不能通过gradescope核验
     nextNumber(n);
   }
 
@@ -35,7 +36,6 @@ public class Collatz {
    */
   public static void nextNumber(int n) {
     // 每一个正整数，如果它是奇数，则对它乘 3 再加 1，如果它是偶数 ，则对它除以 2
-    System.out.print(n + " ");// 打印n,不打印会不能通过gradescope核验
     if (n > 0) {
       if (n % 2 == 0) {// 偶数
         n = n / 2;
