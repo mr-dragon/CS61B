@@ -38,7 +38,7 @@ public class NBody {
    * Checking readBodies...
    * PASS: readBodies(); Congrats! This was the hardest test!
    */
-  public static Planet[] readBodies(String fileName) {
+  public static Planet[] readPlanets(String fileName) {
     In in = new In(fileName);
     int count = in.readInt();
     /*
@@ -74,7 +74,7 @@ public class NBody {
     double dt = Double.parseDouble(args[1]);
     String filename = args[2];
     double radius = readRadius(filename);
-    Planet[] planets = readBodies(filename);
+    Planet[] planets = readPlanets(filename);
 
     /*
      * Drawing the Background 画背景
