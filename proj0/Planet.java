@@ -6,16 +6,16 @@ public class Planet {
    * 我们用双字母来称呼它们的原因是。xxPos 不是 xPos
    * 减少打字错误的机会。在过去的几个学期里，学生们在表示y的时候不小心按了x，这引起了很大的调试麻烦。
    */
-  double xxPos;
+  public double xxPos;
   // 其当前y位置
-  double yyPos;
-  double xxVel;
+  public double yyPos;
+  public double xxVel;
   // 其在y方向上的当前速度
-  double yyVel;
+  public double yyVel;
   // 其质量
-  double mass;
+  public double mass;
   // 与描绘身体的图像对应的文件的名称（例如， jupiter.gif ）
-  String imgFileName;
+  public String imgFileName;
 
   private static final double G = 6.67e-11;
 
